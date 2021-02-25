@@ -3,19 +3,10 @@
 
   import {
     Content,
-    Breadcrumb,
-    BreadcrumbItem,
     Grid,
-    Row,
-    Column,
-    Tabs,
-    TabContent,
-    Tab,
-    Select,
-    SelectItem,
   } from "carbon-components-svelte";
-  import Header from "../components/Header.svelte";
-  import Theme from "../components/Theme.svelte";
+  import Header from "../components/Layout/Header.svelte";
+  import Theme from "../components/Layout/Theme.svelte";
 </script>
 
 <Theme persist theme="g90">
